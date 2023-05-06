@@ -8,6 +8,21 @@ Note: Make sure that you have in your path the latest Node.js LTS version availa
 
 You can try out the app on [CodeSandbox](https://codesandbox.io/) and play live with the code: tbd
 
+his is how the demo app looks like in the browser:
+
+![Screenshot of Demo App](docs/img/demoapp.png)
+
+
+
+You see on the bottom a menu bar with 3 buttons:
+
+- On the left a "Module 1" button for Module 1 showing an Angular Material table
+- Next to it a "Module 2" button for Module 2 showing an advanced Angular Material form
+- On the right a setting button not doing anything
+
+
+
+
 ## Code
 
 The code is available under:
