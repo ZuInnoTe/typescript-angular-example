@@ -6,9 +6,9 @@ The idea is that you simply can take this example and quickly write your applica
 
 Note: Make sure that you have in your path the latest Node.js LTS version available.
 
-You can try out the app on [CodeSandbox](https://codesandbox.io/) and play live with the code: tbd
+You can try out the app on [CodeSandbox](https://codesandbox.io/) and play live with the code: https://codesandbox.io/p/github/ZuInnoTe/typescript-angular-example/
 
-his is how the demo app looks like in the browser:
+This is how the demo app looks like in the browser:
 
 ![Screenshot of Demo App](docs/img/demoapp.png)
 
