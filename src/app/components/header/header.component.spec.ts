@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+
 import { HeaderComponent } from './header.component';
+
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 describe('HeaderComponent', () => {
 	let component: HeaderComponent;
@@ -8,7 +11,8 @@ describe('HeaderComponent', () => {
 
 	beforeEach(() => {
 		TestBed.configureTestingModule({
-			declarations: [HeaderComponent]
+			declarations: [HeaderComponent],
+			schemas: [CUSTOM_ELEMENTS_SCHEMA]
 		});
 		fixture = TestBed.createComponent(HeaderComponent);
 		component = fixture.componentInstance;
