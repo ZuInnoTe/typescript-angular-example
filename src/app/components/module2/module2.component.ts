@@ -1,8 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { MatAccordion } from '@angular/material/expansion';
 
-
-
 @Component({
 	selector: 'app-module2',
 	templateUrl: './module2.component.html',
