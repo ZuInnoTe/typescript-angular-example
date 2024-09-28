@@ -26,10 +26,13 @@
     "zone.js": "^0.14.8"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.1.1",
+    "@angular-devkit/build-angular": "^18.2.6",
     "@angular/cli": "~18.1.1",
-    "@angular/compiler-cli": "^18.1.1",
-    "@angular/material": "^18.1.1",
+    "@angular/compiler-cli": "^18.2.6",
+    "@angular/forms": "^18.2.6",
+    "@angular/material": "^18.2.6",
+    "@angular/platform-browser-dynamic": "^18.2.6",
+    "@angular/router": "^18.2.6",
     "@types/jasmine": "~5.1.4",
     "jasmine-core": "~5.1.2",
     "karma": "~6.4.3",
@@ -38,7 +41,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "^3.3.3",
+    "tslib": "^2.7.0",
     "typescript": "~5.4.5",
-    "zone.js": "^0.14.8"
+    "zone.js": "^0.14.10"
   }
 }
