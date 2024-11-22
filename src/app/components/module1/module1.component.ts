@@ -22,11 +22,10 @@ const ELEMENT_DATA: PeriodicElement[] = [
 ];
 
 @Component({
-	selector: 'app-module1',
-	templateUrl: './module1.component.html',
-	styleUrls: ['./module1.component.scss'],
-	standalone: true,
-	imports: [MatTableModule]
+    selector: 'app-module1',
+    templateUrl: './module1.component.html',
+    styleUrls: ['./module1.component.scss'],
+    imports: [MatTableModule]
 })
 export class Module1Component {
 	displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
