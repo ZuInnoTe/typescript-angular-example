@@ -4,7 +4,7 @@
 	"compilerOptions": {
 		"strictPropertyInitialization": false,
 		"outDir": "./out-tsc/spec",
-		"types": ["jasmine"]
+		"types": ["vitest/globals"]
 	},
 	"include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
 }

@@ -58,9 +58,7 @@
 				},
 				"serve": {
 					"builder": "@angular/build:dev-server",
-					"options": {
-						"disableHostCheck": true
-					},
+					"options": {},
 					"configurations": {
 						"production": {
 							"buildTarget": "angular-example:build:production"
