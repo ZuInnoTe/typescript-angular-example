@@ -6,9 +6,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { RouterModule } from '@angular/router';
 
 @Component({
-    selector: 'app-header',
-    templateUrl: './header.component.html',
-    styleUrls: ['./header.component.scss'],
-    imports: [RouterModule, MatButtonModule, MatIconModule, MatToolbarModule, MatTooltipModule]
+	selector: 'app-header',
+	templateUrl: './header.component.html',
+	styleUrls: ['./header.component.scss'],
+	imports: [RouterModule, MatButtonModule, MatIconModule, MatToolbarModule, MatTooltipModule]
 })
 export class HeaderComponent {}
